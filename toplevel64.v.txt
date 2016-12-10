@@ -1,0 +1,10 @@
+module toplevel (opera1, opera2, result, muodi, clock,start,valid)
+
+
+/*
+http://answers.google.com/answers/threadview/id/109219.html
+http://www.ece.lsu.edu/ee3755/2002/l07.html
+https://www.cise.ufl.edu/~mssz/CompOrg/CDA-arith.html
+https://www.cs.utah.edu/~rajeev/cs3810/slides/3810-08.pdf
+
+*/
