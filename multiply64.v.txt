@@ -1,4 +1,4 @@
-module multiply(ready,product,multiplier,multiplicand,sign,clk); 
+module multiply64(ready,product,multiplier,multiplicand,sign,clk); 
 
    input         clk;
    input         sign;

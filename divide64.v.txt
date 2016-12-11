@@ -1,4 +1,4 @@
-module divide(ready,quotient,remainder,dividend,divider,sign,clk);
+module divide64(ready,quotient,remainder,dividend,divider,sign,clk);
 
    input         clk;
    input         sign;

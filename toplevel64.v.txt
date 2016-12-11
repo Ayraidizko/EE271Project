@@ -1,5 +1,33 @@
 module toplevel (opera1, opera2, result, muodi, clock,start,valid)
 
+parameter width = 64;
+input [width-33:0] opera1;
+input [width-1:0] opera2;
+output[width-1:0] result;
+input muodi; 
+
+reg result;
+
+always @ (opera1, opera2, muodi)
+begin
+	if (muodi == 1)
+	begin
+		multiply64 mymulti(ready,result,opera1,opera2,sign,clk)
+		begin
+		
+		end
+	end
+
+	else
+	begin
+		divide64 mydivi(ready,result,remainder,opera2,opera1,sign,clk);
+		begin
+		
+		end
+	end
+end
+endmodule
+
 
 /*
 http://answers.google.com/answers/threadview/id/109219.html
